@@ -13,4 +13,4 @@ assign(glue("semana", week(Sys.Date() - days(1))),
 try(dir.create("meta"))
 try(dir.create(glue("meta/{year(Sys.Date())}")))
 
-save(semana35, file = glue("meta/{year(Sys.Date())}/{Sys.Date() - days(1)}.rda"), compress = "xz")
+save(semana42, file = glue("meta/{year(Sys.Date())}/{Sys.Date() - days(1)}.rda"), compress = "xz")
